@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    width: 100%;
+    margin: 30px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.barra-top{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.barra-top img{
+    width: 100%;
+    height: 1.4rem;
+}
+
+h2,h3{
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    line-height: 115%;
+}
+  
+h2{
+    font-size: 1.3rem;
+    line-height: 115%;
+}
+
+h3{
+    font-size: 1.2rem;
+    line-height: 115%;
+}
+
+ul{
+    padding: 10px;
+    margin-left: 1.8rem;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+ol{
+    padding: 10px;
+    margin-left: 1.8rem;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+ol li{
+    margin-bottom: 10px;
+}
+
+section{
+    margin-bottom: 25px;
+}
+
+a{
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#top-header{
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 10px 30px;
+}
+
+#top-header p{
+    font-size: 14px; 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-weight: 600;
+    margin-bottom: 5px;
+    color:#004a61;
+}
+
+#top-header a{
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+#title{
+    text-align: center;
+    padding: 20px;
+}
+
+.title-en{
+    font-weight: 400;
+    color: #b06e0e;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-size: 18px;
+    font-style: italic;
+}
+
+.title-es{
+    color: #004a61;
+    font-size: 24px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+}
+
+
+.autor{
+     font-size: 1.1rem;
+     margin-bottom: 25px;
+}
+
+.autor h3{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+#how-to-cite{
+    background-color: #e5edef;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+#date{
+    background-color: #e5edef;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+#resume{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e5edef;
+}
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    line-height: 115%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+#resume-english{
+    font-style: italic;
+}
+
+.imagen-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen-block picture{
+    max-width: 800px;
+}
+
+.imagen-block picture img{
+    width: 100%;
+    height: auto;
+}
+
+#content{
+    padding: 20px 30px;
+}
+
+#content p{
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 115%;
+    margin-bottom: 25px;
+    text-indent: 15px;
+}
+
+#reference{
+    font-size: 1.1rem;
+    padding: 20px 30px;
+    background-color: #fafafa;
+}
+
+#reference figure{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-indent: -15px;
+    width: 90%;
+}
+
+h2.title{
+    font-size: 1.3rem;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-weight: 700;
+    color: #004A61;
+}
+
+h3.subtitle{
+    font-size: 1.2rem;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-weight: 700;
+    color: #004A61;
+    font-style: italic;
+}
+
+h4.subtitle{
+    font-size: 1.1rem;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-weight: 500;
+    color: #004A61; 
+}
+
+@media screen and (max-width: 768px) {
+    #resume,#date{
+        flex-direction: column;
+        align-items: center;
+    }
+}
